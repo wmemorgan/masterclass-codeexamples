@@ -1,8 +1,8 @@
 # use a node base image
-FROM node:8
+FROM node:10
 
 # set maintainer
-LABEL maintainer "miiro@getintodevops.com"
+LABEL maintainer "wil.me.morgan@gmail.com"
 
 # run a command inside the container
 # this will create a directory for our application
