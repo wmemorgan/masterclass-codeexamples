@@ -102,7 +102,7 @@
       docker_container:
         name: hellonode
         state: started
-        image: "getintodevops/hellonode:latest"
+        image: "wmemorgan/hellonode:latest"
         pull: true
         ports:
           - 8000:8000
